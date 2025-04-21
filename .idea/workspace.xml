@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45e7b85a-3657-40bb-81c0-8a862a26493a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EstruturaDeDados.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/classes/vector/domain/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/classes/vector/test/VectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/domain/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/domain/Exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/domain/Exercise3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/test/Exercise1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/test/Exercise2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/test/ExerciseTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/recursividade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/StaticList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/StaticStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/test/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/test/StaticListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/test/StaticStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/work2/stacks/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/work2/stacks/Exercise2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ulXM7iWzFghJSKq7rEkjAlszZw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Aula2.executor": "Run",
+    "Application.ClientsTests.executor": "Run",
+    "Application.ContagemRegressiva.executor": "Run",
+    "Application.CounterDigitsFromNumber.executor": "Run",
+    "Application.EuclidesAlgorithm.executor": "Run",
+    "Application.Exercise1.executor": "Run",
+    "Application.Exercise1Test.executor": "Run",
+    "Application.Exercise2.executor": "Run",
+    "Application.Exercise2Test.executor": "Run",
+    "Application.Exercise3.executor": "Run",
+    "Application.Exercise4.executor": "Run",
+    "Application.Exercise5.executor": "Run",
+    "Application.Exercise6.executor": "Run",
+    "Application.Exercise7.executor": "Run",
+    "Application.Exercise8.executor": "Run",
+    "Application.ExerciseTest3.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FillingVector1.executor": "Run",
+    "Application.IntegersTest.executor": "Run",
+    "Application.InvertString.executor": "Run",
+    "Application.LinkedListTest.executor": "Run",
+    "Application.LinkedTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MultiplyElementsFromVector.executor": "Run",
+    "Application.Potency.executor": "Run",
+    "Application.StackTest.executor": "Run",
+    "Application.StaticListTest.executor": "Run",
+    "Application.StaticStackTest.executor": "Run",
+    "Application.Stickers.executor": "Run",
+    "Application.SumElementsFromVector.executor": "Run",
+    "Application.SumOfDigitsFromNumber.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Teste.executor": "Run",
+    "Application.VectorTest.executor": "Run",
+    "Application.estruturadedados.aula3.test.LinkedListTest.executor": "Run",
+    "Application.estruturadedados.exercises.stack.test.Exercise2Test.executor": "Run",
+    "Application.estruturadedados.structures.test.StaticListTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Memel/IdeaProjects/EstruturaDeDados/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ExerciseTest3">
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.work2.stacks.Exercise1" />
+      <module name="EstruturaDeDados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturadedados.work2.stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.exercises.stack.test.Exercise1Test" />
+      <module name="EstruturaDeDados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturadedados.exercises.stack.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.work2.stacks.Exercise2" />
+      <module name="EstruturaDeDados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturadedados.work2.stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.exercises.stack.test.ExerciseTest3" />
+      <module name="EstruturaDeDados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturadedados.exercises.stack.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="estruturadedados.exercises.stack.test.Exercise2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.exercises.stack.test.Exercise2Test" />
+      <module name="EstruturaDeDados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturadedados.exercises.stack.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExerciseTest3" />
+        <item itemvalue="Application.estruturadedados.exercises.stack.test.Exercise2Test" />
+        <item itemvalue="Application.Exercise1Test" />
+        <item itemvalue="Application.Exercise2" />
+        <item itemvalue="Application.Exercise1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45e7b85a-3657-40bb-81c0-8a862a26493a" name="Changes" comment="" />
+      <created>1742824085854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742824085854</updated>
+    </task>
+    <servers />
+  </component>
+</project>
