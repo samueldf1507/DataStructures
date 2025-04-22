@@ -5,16 +5,19 @@ public class StaticList {
     public int numberOfElements;
     public int[] vector;
 
+
     public StaticList(int cap) {
         this.capacity = cap;
         this.vector = new int[cap];
         this.numberOfElements = 0;
     }
 
+    //Método para checar se a lista está vazia
     public boolean isEmpty() {
         return numberOfElements == 0;
     }
 
+    //Método para checar se a lista está cheia
     public boolean isFull() {
         return numberOfElements == capacity;
     }
@@ -25,6 +28,7 @@ public class StaticList {
         }
     }
 
+    //Método para adicionar um elemento no final da lista
     public void addAtTheEnd(int element) {
         if (isFull()) {
             System.out.println("A lista está cheia!");
@@ -35,6 +39,7 @@ public class StaticList {
 
     }
 
+    //Método para adicionar um elemento no ínicio da lista
     public void addAtTheStart(int element) {
         if (isFull()) {
             System.out.println("A lista está cheia!");
@@ -46,6 +51,7 @@ public class StaticList {
         this.numberOfElements++;
     }
 
+    //Método parea remover um elemento no final da lista
     public int removeAtTheEnd() {
         if (isEmpty()) {
             System.out.println("A lista está vazia!");
@@ -56,6 +62,8 @@ public class StaticList {
         return removedElement;
     }
 
+
+    //Método para remover um elemento no ínicio da lista
     public int removeAtTheStart() {
         if (isEmpty()) {
             System.out.println("A lista está ");
@@ -69,6 +77,7 @@ public class StaticList {
         return removedElement;
     }
 
+    //Método para adicionar um elemento em qualquer posição
     public void addAtAnyPosition(int element, int pos) {
         if (isFull()) {
             System.out.println("A lista está cheia!");
@@ -83,6 +92,7 @@ public class StaticList {
 
     }
 
+    //Método para remover um elemento em qualquer posição
     public int removeAtAnyPosition(int pos) {
         if (isEmpty()) {
             System.out.println("A lista está vazia!");
