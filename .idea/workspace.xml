@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e7b85a-3657-40bb-81c0-8a862a26493a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/exercises/queues/Exercise1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/exercises/queues/domain/Exercise1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/exercises/queues/test/Exercise1Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/domain/Exercise1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/domain/Exercise2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/domain/Exercise3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/test/Exercise1Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/test/Exercise2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/exercises/stack/test/ExerciseTest3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/structures/domain/StaticList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/StaticList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/structures/domain/StaticQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/StaticQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/estruturadedados/structures/domain/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/StaticStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/estruturadedados/structures/test/StaticQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturadedados/structures/test/StaticQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/structures/test/StaticStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturadedados/structures/test/StaticStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/work2/stacks/Exercise2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +84,20 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Memel/IdeaProjects/EstruturaDeDados/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StaticQueueTest">
+  <component name="RunManager" selected="Application.Exercise1">
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.exercises.stacks.Exercise1" />
+      <module name="EstruturaDeDados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturadedados.exercises.stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExerciseTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="estruturadedados.exercises.stack.test.ExerciseTest3" />
       <module name="EstruturaDeDados" />
@@ -148,26 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="estruturadedados.exercises.stack.test.Exercise2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturadedados.exercises.stack.test.Exercise2Test" />
-      <module name="EstruturaDeDados" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="estruturadedados.exercises.stack.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise1" />
         <item itemvalue="Application.StaticQueueTest" />
         <item itemvalue="Application.StaticStackTest" />
         <item itemvalue="Application.estruturadedados.exercises.queues.test.Exercise1Test" />
         <item itemvalue="Application.ExerciseTest3" />
-        <item itemvalue="Application.estruturadedados.exercises.stack.test.Exercise2Test" />
       </list>
     </recent_temporary>
   </component>

@@ -9,6 +9,7 @@ public class StaticQueueTest {
         staticQueue.enqueue(10);
         staticQueue.enqueue(15);
         staticQueue.dequeue();
+        staticQueue.dequeue();
 
         staticQueue.printStaticQueue();
         System.out.println("Tamanho da fila: " + staticQueue.getNumberOfElements());

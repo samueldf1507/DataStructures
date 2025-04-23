@@ -70,8 +70,4 @@ public class StaticStack  {
         }
         return items[top];
     }
-
-
-
-
 }
