@@ -71,7 +71,4 @@ public class StaticQueue {
     public int getNumberOfElements() {
         return numberOfElements;
     }
-
-
-
 }
