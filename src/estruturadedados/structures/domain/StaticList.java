@@ -6,6 +6,7 @@ public class StaticList {
     public int[] vector;
 
 
+    //Método construtor da lista estática
     public StaticList(int cap) {
         this.capacity = cap;
         this.vector = new int[cap];

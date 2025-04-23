@@ -1,57 +1,77 @@
 package estruturadedados.structures.domain;
 
-public class StaticStack {
-    private char[] items;
-    private int capacity;
+public class StaticStack  {
     private int top;
+    private int[] items;
+    private int capacity;
 
-    public StaticStack(int cap) {
-        this.items = new char[cap];
-        this.capacity = cap;
+
+    //Método construtor da pilha estática
+    public StaticStack(int capacity) {
         this.top = -1;
+        this.items = new int[capacity];
+        this.capacity = capacity;
     }
 
+    //Método que verifica se a pilha está vazia
     public boolean isEmpty() {
         return top == -1;
     }
 
+    //Método que verifica se a pilha está cheia
     public boolean isFull() {
         return top == capacity - 1;
     }
 
-    public int StaticStackSize() {
+    //Método que retorna o tamanho da pilha
+    public int size() {
         return top + 1;
     }
 
-    public void push(char item) {
+    //Método que empilha um número na pilha
+    public void push(int element) throws Exception {
         if (isFull()) {
-            System.out.println("A pilha está cheia!");
+            throw new Exception("A pilha está cheia!");
         }
+
         this.top++;
-        items[top] = item;
+        this.items[top] = element;
     }
 
-    public char pop() {
+    //Método que desempilha um número na pilha
+    public int pop() throws Exception {
         if (isEmpty()) {
-            System.out.println("A pilha está vazia!");
+            throw new Exception("A pilha está vazia!");
         }
-        char removedItem = items[top];
+
+        int removedItem = items[top];
         this.top--;
         return removedItem;
     }
 
-    public char top() {
+    //Método que mostra a pilha
+    public void printStaticStack() throws Exception {
         if (isEmpty()) {
-            System.out.println("A pilha está vazia!");
+            throw new Exception("A pilha está vazia!");
+        }
+
+        System.out.print(" [ ");
+        for (int i = 0; i < top + 1; i++) {
+            System.out.print(items[i] + ",  ");
+
+        }
+        System.out.print(" ] ");
+    }
+
+    //Método que retorna o número que está no topo da pilhja
+    public int top() throws Exception {
+        if (isEmpty()) {
+            throw new Exception("A pilha está vazia!");
         }
         return items[top];
     }
 
-    public void printStaticStack() {
-        for (int i = 0; i < top + 1; i++) {
-            System.out.print(items[i] + " ");
-        }
-    }
+
 
 
 }

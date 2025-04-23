@@ -1,77 +1,77 @@
 package estruturadedados.structures.domain;
 
 public class StaticQueue {
-    private int[] itens;
-    private int numberOfElements;
+    private int[] items;
     private int capacity;
+    private int numberOfElements;
     private int start;
     private int end;
 
-    public StaticQueue(int capacity) {
-        this.itens = new int[capacity];
-        this.capacity = capacity;
+    //Método construtor da fila estática
+    public StaticQueue(int cap) {
+        this.items = new int[cap];
+        this.capacity = cap;
+        this.numberOfElements = 0;
         this.start = 0;
         this.end = 0;
-        this.numberOfElements = 0;
     }
 
-    //Método verifica se a fila está vazia
+    //Método que verifica se a fila está vazia
     public boolean isEmpty() {
         return numberOfElements == 0;
     }
 
-    //Método verifica se a fila está cheia
+    //Método que verifica se a fila está cheia
     public boolean isFull() {
         return numberOfElements == capacity;
     }
 
-    //Método adiciona um número no final da fila
+    //Método que verifica o primeiro número da fila
+    public int peek() {
+        return this.items[start];
+    }
+
+    //Método que adiciona um número da fila
     public void enqueue(int item) throws Exception {
         if (isFull()) {
             throw new Exception("A fila está cheia!");
         }
-
-        itens[end] = item;
-        this.end = (this.end + 1) % capacity;
+        this.items[end] = item;
+        this.end = (end + 1) % capacity;
         this.numberOfElements++;
+
     }
 
-    //Método que remove um elemento no ínicio da fila
+    //Método que remove um número da fila
     public int dequeue() throws Exception {
         if (isEmpty()) {
-            throw  new Exception("A fila está vazia!");
+            throw new Exception("A fila está vazia!");
         }
-
-        int item = itens[start];
+        int removedItem = items[start];
         this.start = (this.start + 1) % capacity;
         this.numberOfElements--;
-        return item;
+        return removedItem;
     }
 
-    //Método que mostra o primeiro elemento da fila
-    public int peek() throws Exception {
+    //Método que imprime a lista estática
+    public void printStaticQueue() throws Exception {
         if (isEmpty()) {
             throw new Exception("A fila está vazia!");
         }
-        return itens[start];
-    }
-
-    //Método que mostra a fila
-    public void printStaticQueue() throws Exception{
-        if (isEmpty()) {
-            throw new Exception("A fila está vazia!");
-        }
+        System.out.print(" [ ");
         for (int i = 0; i < numberOfElements; i++) {
             int index = (this.start + i) % capacity;
-            int item = itens[index];
-            System.out.println(item + " ");
-            
+            int number = items[index];
+            System.out.print(number + ",");
         }
+        System.out.print(" ] ");
     }
-
 
     //Método que retorna o tamanho da fila
     public int getNumberOfElements() {
         return numberOfElements;
     }
+
+
+
 }
