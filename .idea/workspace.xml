@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e7b85a-3657-40bb-81c0-8a862a26493a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/No.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/exercises/stacks/Exercise2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/structures/domain/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/structures/test/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturadedados/structures/test/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +83,22 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Memel/IdeaProjects/EstruturaDeDados/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedListTest">
+  <component name="RunManager" selected="Application.Exercise2">
     <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="estruturadedados.exercises.stacks.Exercise1" />
+      <module name="EstruturaDeDados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturadedados.exercises.stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.exercises.stacks.Exercise2" />
       <module name="EstruturaDeDados" />
       <extension name="coverage">
         <pattern>
@@ -125,19 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturadedados.structures.test.StaticStackTest" />
-      <module name="EstruturaDeDados" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="estruturadedados.structures.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="estruturadedados.exercises.queues.Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="estruturadedados.exercises.queues.Exercise1" />
       <module name="EstruturaDeDados" />
@@ -153,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise2" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.estruturadedados.exercises.queues.Exercise1" />
         <item itemvalue="Application.Exercise1" />
         <item itemvalue="Application.StaticQueueTest" />
-        <item itemvalue="Application.StaticStackTest" />
       </list>
     </recent_temporary>
   </component>
