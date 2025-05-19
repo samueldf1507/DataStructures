@@ -11,6 +11,6 @@ public class TableHashIntegerTest {
 
         tableHashInteger.printHashTable();
 
-        System.out.println(tableHashInteger.search(7));
+        System.out.println(tableHashInteger.getNumberOfElements());
     }
 }
