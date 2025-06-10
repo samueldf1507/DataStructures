@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e7b85a-3657-40bb-81c0-8a862a26493a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/test/HashTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/isidro/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/isidro/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/isidro/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/HashTableColision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/NodeDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/domain/ShowHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/structures/test/DoubleLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/work3/ArvoreBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/work3/BeeCrowd1195.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/work3/BeeCrowd1257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/work3/Beecrowd1256.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estruturadedados/structures/test/TableHashIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturadedados/structures/test/TableHashIntegerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +46,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Aula2.executor": "Run",
+    "Application.BeeCrowd1195$BinarySearchTree.executor": "Run",
+    "Application.BeeCrowd1195.executor": "Run",
+    "Application.BeeCrowd1257.executor": "Run",
+    "Application.Beecrowd1256 (1).executor": "Run",
+    "Application.Beecrowd1256.executor": "Run",
     "Application.ClientsTests.executor": "Run",
     "Application.ContagemRegressiva.executor": "Run",
     "Application.CounterDigitsFromNumber.executor": "Run",
+    "Application.DoubleLinkedListTest.executor": "Run",
     "Application.EuclidesAlgorithm.executor": "Run",
     "Application.Exercise1.executor": "Run",
     "Application.Exercise1Test.executor": "Run",
@@ -62,8 +77,10 @@
     "Application.LinkedTest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MultiplyElementsFromVector.executor": "Run",
+    "Application.MyApp.executor": "Run",
     "Application.Potency.executor": "Run",
     "Application.PriorityQueue.executor": "Run",
+    "Application.ShowHash.executor": "Run",
     "Application.StackTest.executor": "Run",
     "Application.StaticListTest.executor": "Run",
     "Application.StaticQueueTest.executor": "Run",
@@ -92,13 +109,13 @@
     "onboarding.tips.debug.path": "C:/Users/Memel/IdeaProjects/EstruturaDeDados/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HashTableTest">
-    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturadedados.work2.queues.Exercise3" />
+  <component name="RunManager" selected="Application.Beecrowd1256">
+    <configuration name="BeeCrowd1195$BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.work3.BeeCrowd1195$BinarySearchTree" />
       <module name="EstruturaDeDados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturadedados.work2.queues.*" />
+          <option name="PATTERN" value="estruturadedados.work3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturadedados.structures.test.HashTableTest" />
+    <configuration name="BeeCrowd1195" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.work3.BeeCrowd1195" />
       <module name="EstruturaDeDados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturadedados.structures.test.*" />
+          <option name="PATTERN" value="estruturadedados.work3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturadedados.structures.domain.PriorityQueue" />
+    <configuration name="BeeCrowd1257" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.work3.BeeCrowd1257" />
       <module name="EstruturaDeDados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturadedados.structures.domain.*" />
+          <option name="PATTERN" value="estruturadedados.work3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableHashIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturadedados.structures.test.TableHashIntegerTest" />
+    <configuration name="Beecrowd1256 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.work3.Beecrowd1256" />
       <module name="EstruturaDeDados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturadedados.structures.test.*" />
+          <option name="PATTERN" value="estruturadedados.work3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="estruturadedados.work2.stacks.Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturadedados.work2.stacks.Exercise2" />
+    <configuration name="Beecrowd1256" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.work3.Beecrowd1256" />
       <module name="EstruturaDeDados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturadedados.work2.stacks.*" />
+          <option name="PATTERN" value="estruturadedados.work3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashTableTest" />
-        <item itemvalue="Application.TableHashIntegerTest" />
-        <item itemvalue="Application.PriorityQueue" />
-        <item itemvalue="Application.estruturadedados.work2.stacks.Exercise2" />
-        <item itemvalue="Application.Exercise3" />
+        <item itemvalue="Application.Beecrowd1256" />
+        <item itemvalue="Application.Beecrowd1256 (1)" />
+        <item itemvalue="Application.BeeCrowd1195$BinarySearchTree" />
+        <item itemvalue="Application.BeeCrowd1195" />
+        <item itemvalue="Application.BeeCrowd1257" />
       </list>
     </recent_temporary>
   </component>
